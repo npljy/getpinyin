@@ -12,16 +12,11 @@ npm install getPinyin --save
 ## 引用
 
 ```js
-import getPinyin from 'getPinyin'
-
 import { getFirstPY, getFullPY } from 'getPinyin' 
 ```
 
 ```js
-const getPinyin = require('getPinyin')
-
 const { getFirstPY, getFullPY }  = require('getPinyin')
-
 ```
 
 ## 使用
