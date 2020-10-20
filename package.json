@@ -7,8 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
-  "keywords": [],
+  "keywords": ["获取汉字拼音"],
   "author": "",
+  "homepage": "https://github.com/npljy/getpinyin",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/npljy/getpinyin.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.3",
