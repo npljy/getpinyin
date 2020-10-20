@@ -1,7 +1,6 @@
-**练习项目**
-使用 `Github Actions` 自动发布到 npm
+# 根据汉字获取拼音
 
-#根据汉字获取拼音
+**练习项目**使用 `Github Actions` 自动发布到 npm
 
 ## 安装
 
@@ -12,11 +11,11 @@ npm install getPinyin --save
 ## 引用
 
 ```js
-import { getFirstPY, getFullPY } from 'getPinyin' 
+import { getFirstPY, getFullPY } from 'getPinyin'
 ```
 
 ```js
-const { getFirstPY, getFullPY }  = require('getPinyin')
+const { getFirstPY, getFullPY } = require('getPinyin')
 ```
 
 ## 使用

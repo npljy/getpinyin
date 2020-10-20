@@ -1,6 +1,6 @@
 {
   "name": "getpinyin",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "练习使用，请勿他用。获取汉字的拼音（首）字母",
   "private": false,
   "scripts": {
