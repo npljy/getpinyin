@@ -5,17 +5,17 @@
 ## 安装
 
 ```js
-npm install getPinyin --save
+npm install getpinyin --save
 ```
 
 ## 引用
 
 ```js
-import { getFirstPY, getFullPY } from 'getPinyin'
+import { getFirstPY, getFullPY } from 'getpinyin'
 ```
 
 ```js
-const { getFirstPY, getFullPY } = require('getPinyin')
+const { getFirstPY, getFullPY } = require('getpinyin')
 ```
 
 ## 使用
