@@ -36,16 +36,17 @@ jobs:
       if: steps.cache.outputs.cache-hit != 'true' # 如果变量 cache-hit 不等于 true
       run: npm install # 安装 node modules 相关依赖
 
+    - name: build
+      run: npm run build
     
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-        registry-url: https://registry.npmjs.org/
-    - name: Build and Deploy
+        registry-url: https://registry.npmjs.org/:_authToken=$NPM_TOKEN
       run: | 
-        npm run build
-        npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
+        npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
         npm publish .
       env:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
