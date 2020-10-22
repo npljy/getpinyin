@@ -20,12 +20,12 @@ jobs:
 
     steps:
     - name: Chekout # step1 获取源码
-      uses: actions/checkout@v2 # 使用 actions/checkout@master
+      uses: actions/checkout@v2 # 使用 actions/checkout@v2
       with:
           persist-credentials: false
 
     - name: Cache node modules # step2
-      uses: actions/cache@v1
+      uses: actions/cache@v1 # 使用 actions/cache@v1
       id: cache
       with:
         path: node_modules
