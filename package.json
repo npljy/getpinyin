@@ -1,7 +1,7 @@
 {
   "name": "getpinyin",
-  "version": "1.1.0",
-  "description": "练习使用，请勿他用。获取汉字的拼音（首）字母",
+  "version": "1.1.1",
+  "description": "练习项目。获取汉字的拼音（首）字母",
   "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
