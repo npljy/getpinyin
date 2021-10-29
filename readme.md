@@ -30,3 +30,7 @@ console.log(getFirstPY('中国')) // zg
 console.log(getFullPY('国')) // guo
 console.log(getFullPY('中国')) // zhongguo
 ```
+
+## 注意
+
+没有对多音字进行处理
