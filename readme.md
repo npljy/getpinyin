@@ -1,6 +1,6 @@
 # 根据汉字获取拼音
 
-【PS：练习项目】使用 `Github Actions` 自动发布到 npm
+使用 `Github Actions` 自动发布到 npm
 
 ## npm地址
 
