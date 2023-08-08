@@ -1,6 +1,6 @@
 {
   "name": "getpinyin",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "获取汉字的拼音（首）字母，使用 `Github Actions` 自动发布到 npm",
   "private": false,
   "scripts": {
