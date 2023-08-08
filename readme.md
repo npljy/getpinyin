@@ -1,7 +1,5 @@
 # 根据汉字获取拼音
 
-使用 `Github Actions` 自动发布到 npm
-
 ## npm地址
 
 [https://www.npmjs.com/package/getpinyin](https://www.npmjs.com/package/getpinyin)
